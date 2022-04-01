@@ -1,0 +1,299 @@
+*{
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+   
+    font-family: 'Inter';
+}
+
+
+.nav-bar, ul{
+    display: flex;
+    list-style-type: none;
+    gap:40px;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+    color: #667085
+}
+.img{
+
+    height:26.99px;
+    width:26px
+}
+
+
+.nav-p{
+    font-size: 18px;
+    margin-right:50px;
+    color: #3A404E;
+    font-weight: 500;
+}
+.titulo1{
+
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 600;
+}
+.sobre-nos{
+    color:#8E2424;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn{
+    background-color: #8E2424;
+    color: white;
+    width: 112px;
+    height: 44px;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 18px 10px 18px;
+    gap: 8px;
+    text-decoration: none;
+    cursor: pointer;
+  
+}
+.btn1{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    width: 112px;
+    height: 44px;
+    padding: 10px 18px 10px 18px;
+    gap: 8px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+  
+}
+.btn1:hover{
+    background-color:#8e242494;
+    color: white;
+    border-radius: 8px;
+    border: none;
+}
+
+header{
+    Padding: 70px 0 70px 0;
+    text-align: center;
+}
+
+.titulo{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    color:#101828;
+    
+}
+.span-titulo1{
+    color:#667085;
+    top:12px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.container-dados{
+    width:100%;
+    max-width:900px;
+    min-width:320px;
+    height:192px;
+    text-align: center;
+    display: flex;
+    justify-content:left;
+    gap:20px;
+    padding-left: 100px;
+    
+}
+
+.projetos{
+   width: 280px;
+   height: 192px;
+   text-align: left;
+}
+.Colaboradores{
+    text-align: left;
+}
+.Dowloads{
+    text-align: left;
+}
+.Reviews{
+    text-align: left;
+}
+.paragrafo-principal{
+    font-size: 60px;
+    line-height: 5px;
+    font-weight: 600;
+    color: #8E2424;
+    text-align: left;
+}
+
+.paragrafo-dois{
+    width: 280px;
+    height: 28px;
+    color:#101828;
+    font-size: 18px;
+    text-align: start;
+    line-height: 5px;
+    text-align: left;
+}
+
+.span-dados{
+    width: 280px;
+    height: 48px;
+    font-size: 16px;
+    line-height: 5px;
+    text-align: left;
+    color: #667085;
+}
+
+.main2{
+    padding-top: 200px;
+    text-align: center;
+}
+
+.vagas{
+    color:#8E2424;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+}
+.titulo-principal2{
+        font-size: 36px;
+        line-height: 44px;
+        font-weight: 600;
+        color:#101828;
+}
+.img-clientes{
+    width:1216px;
+    height:400px;
+    padding-top: 50px;
+}
+
+.secao1{
+
+   margin-left: 250px;
+   
+}
+.secao2{
+
+    margin-left: 250px;
+    padding-top:40px;
+    
+ }
+.profissao-salarios{
+
+    border: 1px solid rgba(0, 0, 0, 0.103);
+    border-radius: 16px;
+    width: 768px;
+    height: 136px;
+    padding: 0px 24px 28px 24px;
+    text-align:left;
+
+}
+
+.profissao{
+
+color: #101828;
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+}
+.cargo{
+
+    color:#101828;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+}
+.beneficios{
+    color:#667085;
+    font-size: 16px;
+    line-height: 24px;
+    word-spacing: 10px;
+}
+.feedback{
+
+    padding-top: 80px;
+}
+
+.container-colaborador{
+    margin:auto;
+    width: 1200px;
+    text-align: center;
+    background-color: #c319190c;
+    padding: 64px;
+}
+
+.colaboradores{
+    color: #8E2424;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+}
+.sobre-empresa{
+    color: #101828;
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 500;
+}
+
+.nome-dela{
+
+    color: #101828;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+.profissao-dela{
+    color: #667085;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+
+}
+
+.rodape{
+    text-align: center;
+
+}
+.novidades{
+
+    color: #101828;
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 600;
+}
+.descricao-vagas{
+    color: #667085;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.rodape{
+    padding:100px;
+}
+.email{
+    width: 360px;
+    height: 48px;
+    padding: 12px 14px 12px 16px;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+
+}
+.formulario{
+
+    padding:40px;
+}
+
+@media(min-width: 320px) and (max-width: 1300px){
+
+    section{
+        width:100%;
+        max-width:320px;
+    }
+}
